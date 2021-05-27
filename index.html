@@ -47,7 +47,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>DevWeb - Front End — Compilation de ressources pour apprendre à coder</title>
+<title>DevWeb - Front End — Ressources pour apprendre à coder</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~-->
 
 <!--~~ Raw markup ~~-->
@@ -207,6 +207,8 @@ Error message and password prompt
 
 <li>$:/core</li>
 
+<li>$:/core/ui/ViewTemplate/tags</li>
+
 <li>$:/DefaultTiddlers</li>
 
 <li>$:/devweb-frontend/macro/dbadge</li>
@@ -230,6 +232,8 @@ Error message and password prompt
 <li>$:/GitHub/Repo</li>
 
 <li>$:/GitHub/Username</li>
+
+<li>$:/Import</li>
 
 <li>$:/isEncrypted</li>
 
@@ -299,6 +303,12 @@ Error message and password prompt
 
 <li>$:/plugins/tobibeer/setvars</li>
 
+<li>$:/plugins/wikilabs/uni-link</li>
+
+<li>$:/plugins/wikilabs/uni-link/aka-footer</li>
+
+<li>$:/plugins/wikilabs/uni-link/aka-footer/template</li>
+
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
@@ -312,6 +322,10 @@ Error message and password prompt
 <li>$:/state/Excise/-1962465977/tagnew</li>
 
 <li>$:/state/Excise/-853768905/tagnew</li>
+
+<li>$:/state/folded/$:/devweb-frontend/stylesheet/tw-version</li>
+
+<li>$:/state/folded/$:/palettes/Twilight</li>
 
 <li>$:/state/Link/-2014864104/search</li>
 
@@ -369,6 +383,10 @@ Error message and password prompt
 
 <li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
 
+<li>$:/state/tag-manager/tags</li>
+
+<li>$:/state/tag-manager/todo</li>
+
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
 <li>$:/status/UserName</li>
@@ -394,6 +412,8 @@ Error message and password prompt
 <li>Afficher les tiddlers liés au tag</li>
 
 <li>Ajouter bootstrap à un projet angular</li>
+
+<li>Alias</li>
 
 <li>Angular</li>
 
@@ -551,7 +571,11 @@ Error message and password prompt
 
 <li>doing</li>
 
+<li>Doing_Icon</li>
+
 <li>done</li>
+
+<li>Done_Icon</li>
 
 <li>ECMAScript</li>
 
@@ -564,6 +588,8 @@ Error message and password prompt
 <li>en</li>
 
 <li>Entrée</li>
+
+<li>Entrées</li>
 
 <li>Espace de travail angular</li>
 
@@ -773,6 +799,8 @@ Error message and password prompt
 
 <li>Sortie</li>
 
+<li>source</li>
+
 <li>source footnote-viewtemplate</li>
 
 <li>stats</li>
@@ -782,6 +810,8 @@ Error message and password prompt
 <li>Structure des fichiers du projet et de l'espace de travail</li>
 
 <li>style</li>
+
+<li>Style Alias Uni Link</li>
 
 <li>Style Buttons</li>
 
@@ -809,11 +839,19 @@ Error message and password prompt
 
 <li>Style source</li>
 
+<li>Style tags</li>
+
+<li>Style task-control</li>
+
 <li>Style tiddler controls</li>
 
 <li>Style Videos</li>
 
 <li>Syntaxe des modèles</li>
+
+<li>tag</li>
+
+<li>Tag_Icon</li>
 
 <li>tags</li>
 
@@ -823,9 +861,13 @@ Error message and password prompt
 
 <li>Template task-control</li>
 
+<li>Test style tag aliases source</li>
+
 <li>TgNT</li>
 
 <li>todo</li>
+
+<li>Todo_Icon</li>
 
 <li>Transformer des données à l'aide de pipes</li>
 
@@ -10850,6 +10892,12 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20210526223021120" creator="user" modified="20210526235214488" modifier="user" tags="$:/tags/ViewTemplate tag" title="$:/core/ui/ViewTemplate/tags">
+<pre>&lt;$reveal type=&quot;nomatch&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; tag=&quot;div&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
+&lt;div class=&quot;tc-tags-wrapper&quot;&gt;&lt;$list filter=&quot;[all[current]tags[]sort[title]]&quot; template=&quot;$:/core/ui/TagTemplate&quot; storyview=&quot;pop&quot;/&gt;&lt;/div&gt;
+&lt;/$reveal&gt;
+</pre>
+</div>
 <div created="20201112214905448" creator="user" modified="20210526155815215" modifier="user" title="$:/DefaultTiddlers">
 <pre>Index</pre>
 </div>
@@ -10859,9 +10907,9 @@ Error message and password prompt
 \end
 </pre>
 </div>
-<div created="20210222225328798" creator="user" modified="20210526160258796" modifier="user" tags="TW5 version" title="$:/devweb-frontend/status">
+<div created="20210222225328798" creator="user" modified="20210527000741323" modifier="user" tags="TW5 version" title="$:/devweb-frontend/status">
 <pre>&lt;&lt;dbadge &quot;Propulsé par&quot; &quot;Tiddlywiki5 et ~GitHub-Pages&quot; info&gt;&gt;
-&lt;&lt;dbadge Tiddlywiki 5.1.23 primary&gt;&gt; &lt;&lt;dbadge License MIT success&gt;&gt; &lt;&lt;dbadge Version &quot;1.0.1&quot; warning&gt;&gt; &lt;&lt;dbadge Status &quot;Stable&quot; danger&gt;&gt; </pre>
+&lt;&lt;dbadge Tiddlywiki 5.1.23 primary&gt;&gt; &lt;&lt;dbadge License MIT success&gt;&gt; &lt;&lt;dbadge Version &quot;1.0.2&quot; warning&gt;&gt; &lt;&lt;dbadge Status &quot;Stable&quot; danger&gt;&gt; </pre>
 </div>
 <div created="20181204192835967" creator="Mohammad" modified="20210526160945094" modifier="user" source="https://kookma.github.io/TW-PluginLibrary/#%24%3A%2Fplugins%2Fkookma%2Fshiraz%2Fstyles%2Fdbadge" tags="badge $:/tags/Stylesheet version" title="$:/devweb-frontend/stylesheet/dbadge" type="text/css">
 <pre>/*Credits: 
@@ -10930,8 +10978,13 @@ Mohammad Rahmani: https://github.com/kookma
 <div created="20201112221014456" creator="user" modified="20210201140620564" modifier="user" title="$:/GitHub/Repo">
 <pre>frontenddevweb/frontenddevweb.github.io</pre>
 </div>
-<div created="20201112220827768" creator="user" modified="20210526161510499" modifier="user" title="$:/GitHub/Username">
+<div created="20201112220827768" creator="user" modified="20210527000759511" modifier="user" title="$:/GitHub/Username">
 <pre>frontenddevweb</pre>
+</div>
+<div status="complete" title="$:/Import">
+<pre>Les tiddlers suivants ont été importés :
+
+# [[$:/plugins/wikilabs/uni-link]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -17556,13 +17609,285 @@ Selectively refreshes the widget if needed. Returns true if the widget or any of
     }
 }</pre>
 </div>
-<div created="20201112214725096" creator="user" modified="20210201134514193" modifier="user" title="$:/SiteSubtitle">
-<pre>Compilation de ressources pour apprendre à coder</pre>
+<div author="Mario Pietsch" core-version="&gt;=5.1.22" dependents="" description="Enhances the prettylink-parser" list="readme history license" name="Uni-Link" plugin-type="plugin" title="$:/plugins/wikilabs/uni-link" type="application/json" version="2.1.0">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/plugins/wikilabs/uni-link/aka-footer/template&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/aka-footer/template&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;''Note'': This tiddler has the following aliases || &lt;&lt;showAliases delim:\&quot; ||\&quot;&gt;&gt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/aka-footer&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/aka-footer&quot;,
+            &quot;tags&quot;: &quot;$:/tags/ViewTemplate&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;&lt;$list filter=\&quot;[all[current]has[aliases]]\&quot;&gt;\n&lt;br/&gt;\n&lt;hr&gt;\n\n{{||$:/plugins/wikilabs/uni-link/aka-footer/template}}\n&lt;/$list&gt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/aka-macros&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/aka-macros&quot;,
+            &quot;tags&quot;: &quot;$:/tags/Macro&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;\\define tooltip() Tiddler -&gt; &lt;&lt;currentTiddler&gt;&gt;\n\\define aka(target, field:X)\n\\whitespace trim\n&lt;$list filter=\&quot;[[$target$]is[alias]]\&quot; variable=ali emptyMessage=\&quot;\&quot;\&quot;&lt;$link tooltip=\&quot;Alias not defined!\&quot; to=\&quot;?\&quot;&gt;&lt;span class=\&quot;uni-alias-missing\&quot;&gt;$target$&lt;/span&gt;&lt;/$link&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$list filter=\&quot;[has[aliases]!has[draft.of]]\&quot;&gt;\n  &lt;$list filter=\&quot;[enlist{!!aliases}regexp[^$target$$(?i)]]\&quot; variable=\&quot;dummy\&quot;&gt;\n    &lt;$link tooltip=&lt;&lt;tooltip&gt;&gt; &gt;\n      &lt;span class=\&quot;uni-alias\&quot;&gt;\n        &lt;$set name=\&quot;tv-wikilinks\&quot; value=\&quot;no\&quot;&gt;\n          &lt;$view field=$field$ mode=text&gt;$target$&lt;/$view&gt;\n        &lt;/$set&gt;\n      &lt;/span&gt;\n    &lt;/$link&gt;\n  &lt;/$list&gt;\n&lt;/$list&gt;\n&lt;/$list&gt;\n\\end\n\n\\define aka-no-links(target)\n\\whitespace trim\n&lt;$list filter=\&quot;[[$target$]is[alias]]\&quot; variable=ali emptyMessage=\&quot;\&quot;\&quot;&lt;$link tooltip=\&quot;Alias not defined!\&quot; to=\&quot;?\&quot;&gt;$target$&lt;/$link&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$list filter=\&quot;[has[aliases]!has[draft.of]]\&quot;&gt;\n  &lt;$list filter=\&quot;[enlist{!!aliases}regexp[^$target$$(?i)]]\&quot; variable=\&quot;dummy\&quot;&gt;\n    &lt;span&gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/span&gt;\n  &lt;/$list&gt;\n&lt;/$list&gt;\n&lt;/$list&gt;\n\\end\n\n\\define showAliases(delim:\&quot;,\&quot;)\n&lt;$list filter=\&quot;[list[!!aliases]butlast[]]\&quot;&gt;&lt;$view field=title/&gt;$delim$ &lt;/$list&gt;&lt;$list filter=\&quot;[list[!!aliases]last[]]\&quot;&gt;&lt;$view field=title/&gt;&lt;/$list&gt;\n\\end\n\n\\define listAliases()\n&lt;$list filter=\&quot;[has[aliases]]\&quot;&gt;&lt;$link to=&lt;&lt;currentTiddler&gt;&gt; &gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/$link&gt; - &lt;&lt;showAliases&gt;&gt;&lt;br/&gt;&lt;/$list&gt;\n\\end\n\n&lt;pre&gt;&lt;$view field=\&quot;text\&quot;/&gt;&lt;/pre&gt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/alias-list&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/alias-list&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;&lt;&lt;listAliases&gt;&gt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/backlinks-template&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/backlinks-template&quot;,
+            &quot;text&quot;: &quot;!!! Uni-links\n\nUse the following field as link text, if available. It defaults to tiddler ''title''!\n\n&lt;&lt;&lt;\n&lt;$tiddler tiddler=\&quot;$:/config/wikilabs/uni-link/field\&quot;&gt;\n&lt;$radio value=\&quot;caption\&quot;&gt; caption&lt;/$radio&gt;&lt;br&gt;\n&lt;$radio value=\&quot;subtitle\&quot;&gt; subtitle&lt;/$radio&gt;&lt;br&gt;\n&lt;$radio value=\&quot;title\&quot;&gt; title&lt;/$radio&gt;&lt;br&gt;\n&lt;/$tiddler&gt;\n&lt;&lt;&lt;\n\nThis setting can be found at the $:/ControPanel uni-links tab! The configuration tiddler is: [[$:/config/wikilabs/uni-link/field]]\n\n| Link | Result |h\n|`[[default prettylink|tiddler-with-caption]]` |[[default prettylink|tiddler-with-caption]] |\n|`[[tiddler-with-caption]]` |[[tiddler-with-caption]] |\n|`[[tiddler-with-subtitle]]` |[[tiddler-with-subtitle]] |\n|`[[tiddler-with-subtitle-and-caption]]` |[[tiddler-with-subtitle-and-caption]] |\n|`[[tiddler-with-subtitle-and-caption|]]` |[[tiddler-with-subtitle-and-caption|]] ... but don't use them!|\n|`[[tiddler doesn't exist]]` |[[tiddler doesn't exist]] |\n\n!!! Alias Links\n\n| Link | Result |h\n|`[[alias|?]]` |[[alias|?]] |\n|`[[AliaS|?]]` |[[AliaS|?]] |\n|`[[alias|?t]]` |[[alias|?t]] |\n|`[[alias|?c]]` |[[alias|?c]] |\n|`[[alias|?s]]` |[[alias|?s]] |\n|`[[alias|?my-field]]` |[[alias|?my-field]] |\n|`[[doesn't exist|?]]` |[[doesn't exist|?]] |\n&quot;
+        },
+        &quot;$:/config/ShortcutInfo/aliasify&quot;: {
+            &quot;title&quot;: &quot;$:/config/ShortcutInfo/aliasify&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;{{$:/language/Buttons/Aliasify/Hint}}&quot;
+        },
+        &quot;$:/config/ShortcutInfo/alias-link&quot;: {
+            &quot;title&quot;: &quot;$:/config/ShortcutInfo/alias-link&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;{{$:/language/Buttons/Make/Alias/Hint}}&quot;
+        },
+        &quot;$:/config/shortcuts/alias-link&quot;: {
+            &quot;title&quot;: &quot;$:/config/shortcuts/alias-link&quot;,
+            &quot;created&quot;: &quot;20190210193620358&quot;,
+            &quot;modified&quot;: &quot;20190210193621514&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;ctrl-? ctrl-Space&quot;
+        },
+        &quot;$:/config/shortcuts/aliasify&quot;: {
+            &quot;title&quot;: &quot;$:/config/shortcuts/aliasify&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;ctrl-K&quot;
+        },
+        &quot;$:/config/wikilabs/uni-link/field&quot;: {
+            &quot;title&quot;: &quot;$:/config/wikilabs/uni-link/field&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;title&quot;
+        },
+        &quot;$:/language/Buttons/Aliasify/Caption&quot;: {
+            &quot;title&quot;: &quot;$:/language/Buttons/Aliasify/Caption&quot;,
+            &quot;text&quot;: &quot;alias-link&quot;
+        },
+        &quot;$:/language/Buttons/Aliasify/Hint&quot;: {
+            &quot;title&quot;: &quot;$:/language/Buttons/Aliasify/Hint&quot;,
+            &quot;text&quot;: &quot;Wrap selection in square brackets and add alias postfix&quot;
+        },
+        &quot;$:/language/Buttons/Make/Alias/Caption&quot;: {
+            &quot;title&quot;: &quot;$:/language/Buttons/Make/Alias/Caption&quot;,
+            &quot;text&quot;: &quot;make alias&quot;
+        },
+        &quot;$:/language/Buttons/Make/Alias/Hint&quot;: {
+            &quot;title&quot;: &quot;$:/language/Buttons/Make/Alias/Hint&quot;,
+            &quot;text&quot;: &quot;Create a wikitext alias-link&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/history&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/history&quot;,
+            &quot;text&quot;: &quot;V 2.1.0 - 2021.03.16\n\n* add `[[tiddler title case insensitve|??]]` ... will show the text, but search for a case insensitve title.\n* fix uni-link-macro default title styling\n* renamed and moved some tiddlers\n\nV 2.0.1 - 2020.12.25\n\n* update license\n\nV 2.0.0 - 2020.06.11\n\n* Compatible with ~TiddlyWiki &gt;= V5.1.22\n* Fix a \&quot;backlinking\&quot; problem introduced with TW V5.1.22\n** Adjusted uni-link \&quot;backlinker\&quot; to use new indexer `.extractLinks()` function\n* More info can be found in the [[readme|$:/plugins/wikilabs/uni-link/readme]]\n\n--------------\n\nCompatible with ~TiddlyWiki &lt;= V5.1.21\n\nV 1.2.1 - 2020.05.22\n\n* Fix a compatibility problem with relink plugin, reported by flibbles.\n\nV 1.2.0 - 2020.03.26\n\n* Make uni-link plugin compatible with relink-plugin from flibbles\n** see: https://github.com/flibbles/tw5-relink\n\nV 1.1.2 - 2020.03.16\n\n* Fix issue #44 problem with backlink cases sensitivity\n\nV 1.1.1 - 2020.01.19\n\n* Update license link/text\n\nV 1.1.0 - 2019.08.13\n\n* Fixed problem introduced with TW V 5.1.20 link-widget core changes\n\nV 1.0.0 - 2019.02.09\n\n* Add `[[alias|?t]]`, `[[alias|?c]]` and `[[alias|?s]]`, that show the tiddler ''title'', ''caption'' and ''subtitle'' field as the link text\n* Add `[[alias|?my-field]]` shows the content of the field named: `my-filed` as the link text\n* Add a new editor toolbar button, which opens an alias search menue. \n** Default keyboard shortcut is to Ctrl-Space\n\n``Incompatible changes``\n\n* There is a new $:/ControlPanel setting, that defines the default behaviour of the uni-link macro ''globally''. \n* uni-link now only shows the tiddler title, ''or'' the caption ''or'' the subtitle field. \n* If you need different behaviour, you'll need to use the alias mechanism!\n\nV 0.3.4 - 2018.09.09\n\n* Add \&quot;aliasify\&quot; button to tiddler editor toolbar\n* Add ctrl-k to activate \&quot;aliasify\&quot;\n\nV 0.3.3 - 2018.08.06\n\n* fix [[issue 19|https://github.com/wikilabs/plugins/issues/19]] Alias References behaviour\n\nV 0.3.2 - 2018.02.02\n\n* new Undefined Aliases Sidebar tab under More: Aliases\n* `[[?]aliasbacklinks[]sort[title]]` shows a list of tiddlers that contain undefined alias links\n\nV 0.3.1 - 2018.01.31\n\n* fixed: [[CamelCase]] or [[$:/system]] tiddler \&quot;double linking\&quot;\n* [[NaturaL sElEcTiOn|?]] .. is a valid alias now. Same problem as above!\n\nV 0.3.0 - 2018.01.27\n\n* add: styling possibility for missing aliases\n* improve: history and copyright\n\nV 0.2.1 - 2018.01.27\n\n* fix: uni-link creates an unused a-element\n\nV 0.2.0 - 2017.12.15\n\n* added: [[alias|?]] link syntax\n** using aka-makros for tiddler alias handling\n\n* added: Alias backlinks\n** open the tiddler (i)nfo area: References\n\n* added filter operators:\n** is[alias] ... extends the core is operator see: https://tiddlywiki.com/#is Operator\n** all[aliases] ... extends the core all operator see: https://tiddlywiki.com/#all Operator\n\n* added: Right-Sidebar: More tab: \&quot;Aliases\&quot;\n** Sorted by Alias\n** Sorted by Tiddler Title\n\n* added: uni-link $:/ControlPanel setting\n* added: different colors for title, caption, subtitle and alias links\n\nV0.1.0 - 2017.07.25\n\n* fix \&quot;backlink\&quot; and \&quot;missing\&quot; issue\n\nV0.0.1 - 2017.07.23\n\n* initial release\n\nalso see: https://wikilabs.github.io/editions/uni-link/#History\n&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/license&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/license&quot;,
+            &quot;text&quot;: &quot;[[Uni-Link Plugin|https://wikilabs.github.io/#uni-link]] (C) Mario Pietsch - 2017-2021\n\nhttps://opensource.org/licenses/BSD-3-Clause\n&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/readme&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/readme&quot;,
+            &quot;subtitle&quot;: &quot;\&quot;uni-link\&quot; readme&quot;,
+            &quot;text&quot;: &quot;\\define createExampleTiddlers()\n&lt;$button&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot;  title=\&quot;tiddler-with-caption\&quot;  caption=\&quot;Short Caption\&quot;/&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot;  title=\&quot;tiddler-with-subtitle\&quot;  subtitle=\&quot;Tiddler With Subtitle Only Defined\&quot;/&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot;  title=\&quot;tiddler-with-subtitle-and-caption\&quot;  subtitle=\&quot;Tiddler With Subtitle And Caption - using subtitle\&quot; caption=\&quot;capt.ion\&quot;/&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot;  title=\&quot;tiddler-with-alias\&quot;  aliases=\&quot;alias\&quot; caption=\&quot;alias-caption\&quot; subtitle=\&quot;alias-subtitle\&quot; my-field=\&quot;alias my-field\&quot;/&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot;  title=\&quot;test-links\&quot; text={{$:/plugins/wikilabs/uni-link/backlinks-template!!text}}/&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot;  title=\&quot;This is a Test\&quot; text=\&quot;This tiddler is used as an example for [[uni-link-search]]\&quot;/&gt;\nCreate \&quot;uni-link\&quot; example tiddlers!\n&lt;/$button&gt;\n\\end\n\\define deleteExampleTiddlers()\n&lt;$button&gt;\n&lt;$action-deletetiddler $tiddler=\&quot;tiddler-with-caption\&quot;/&gt;\n&lt;$action-deletetiddler $tiddler=\&quot;tiddler-with-subtitle\&quot;/&gt;\n&lt;$action-deletetiddler $tiddler=\&quot;tiddler-with-subtitle-and-caption\&quot;/&gt;\n&lt;$action-deletetiddler $tiddler=\&quot;tiddler-with-alias\&quot;/&gt;\n&lt;$action-deletetiddler $tiddler=\&quot;test-links\&quot;/&gt;\n&lt;$action-deletetiddler $tiddler=\&quot;This is a Test\&quot;/&gt;\nDelete example tiddlers!\n&lt;/$button&gt;\n\\end\n\n! Important\n\nThis plugin overwrites the core tiddler: $:/core/ui/TiddlerInfo/References\n\n''This uni-link version is compatible with ~TiddlyWiki &gt;= V5.1.22''\n\nIf you need to use it with TW &lt;= V5.1.21 you'll need to use an older version, which is available at: https://wikilabs.github.io/#GettingStarted\n\n! Video\n\n* See: https://wikilabs.github.io/editions/uni-link/#GettingStarted\n\n! Uni-link\n&lt;&lt;&lt;\n* A new wikitext parsing rule, that calls the global [[\&quot;uni-link\&quot; macro|$:/plugins/wikilabs/uni-link/uni-link-macro]], instead of referencing the tiddler name. \n\n* It substitues the following tiddler fields: ''subtitle'', ''caption'' and ''title''. The $:/ControlPanel contains a new tab, that lets you define the behaviour of the uni-link macro. Default is ''title''. So there is no difference between the default setting of the plugin and the default behaviour in unmodified ~TiddlyWiki.\n&lt;&lt;&lt;\n\n! Uni-link Search\n&lt;&lt;&lt;\n`[[case insensitive title|??]]` will do a ''literal,  case-insensitive'' title search. It  will return ''the first'' tiddler it finds. \n\n''Examples'':\n\n|`[[This is a Test|??]]`|[[this is a test|??]]|\n|`[[doesn't exist|??]]`|[[doesn't exist|??]]|\n\n''Warning''\n\n* uni-link V2.1.0 does ''not'' contain a \&quot;relink plugin\&quot; addOn!\n* So if you change the tiddler name, those links won't be changed!\n&lt;&lt;&lt;\n\n! Alias\n&lt;&lt;&lt;\n* Alias Link Syntax\n** `[[anything|?]]` ... link to the tiddler that contains the alias: `anything`\n** `[[anything|?t]]` ... link to alias anything, but display the tiddler ''title''\n** `[[anything|?c]]` ... link to alias anything, but display the tiddler ''caption''\n** `[[anything|?s]]` ... link to alias anything, but display the tiddler ''subtitle''\n** `[[anything|?my-field]]` ... link to alias anything, but display the tiddler-field named ''my-field''\n** If a field doesn't exist, it shows the \&quot;alias-text\&quot; as used with `[[anything|?]]`\n** using [[aka-makros|$:/plugins/wikilabs/uni-link/aka-macros]] for tiddler alias handling\n\n* Alias Backlinks\n** open the tiddler (i)nfo area: References\n\n* Filter Operators:\n** `is[alias]` ... extends the core `is` operator see: [[https://tiddlywiki.com/#is Operator]]\n** `all[aliases]` ... extends the core `all` operator see: [ext[https://tiddlywiki.com/#all Operator]]\n** `[aliasbacklinks[]]` ... shows a list of all tiddlers that contain alias links\n** `[[?]aliasbacklinks[]sort[title]]` ... shows a list of tiddlers that contain undefined alias links\n\n* Right-Sidebar: More tab: [[Aliases|$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases]]\n** [[Sorted by Alias|$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/byAlias]]\n** [[Sorted by Tiddler Title|$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/byTitle]]\n** [[Undefined Aliases|$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/undefined]]\n\n* uni-link $:/ControlPanel setting\n\n* [[uni-fields|$:/plugins/wikilabs/uni-link/uni-fields.js]] widget, that allows us to assign CSS classes based on tiddler fields existence.\n&lt;&lt;&lt;\n\n! Installation\n&lt;&lt;&lt;\n* You can drag &amp; drop import this link: $:/plugins/wikilabs/uni-link&lt;br&gt;\n&lt;&lt;&lt;\n\n! Link Styling\n&lt;&lt;&lt;\n* Uni-links are styled like this: $:/plugins/wikilabs/uni-link/styles\n&lt;&lt;&lt;\n\n! Examples\n&lt;&lt;&lt;\nYou can use the following buttons to create example tiddlers!\n\n&lt;&lt;createExampleTiddlers&gt;&gt; -- &lt;&lt;deleteExampleTiddlers&gt;&gt;\n&lt;&lt;&lt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/filters/aliasbacklinks.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/filters/aliasbacklinks.js&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/wikilabs/uni-link/filters/aliasbacklinks.js\ntype: application/javascript\nmodule-type: filteroperator\n\nFilter operator for returning all the backlinks from a tiddler\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nExport our filter function\n*/\nexports.aliasbacklinks = function(source,operator,options) {\n\tvar results = [];\n\tsource(function(tiddler,title) {\n\t\t$tw.utils.pushTop(results,options.wiki.getTiddlerAliasBacklinks(title));\n\t});\n\treturn results;\n};\n\n})();\n&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;filteroperator&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/filters/all/aliases.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/filters/all/aliases.js&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/wikilabs/uni-link/filters/all/aliases.js\ntype: application/javascript\nmodule-type: allfilteroperator\n\nFilter function for [all[aliases]]\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nExport our filter function\n*/\nexports.aliases = function(source,prefix,options) {\n\treturn options.wiki.getAllAliases();\n};\n\n})();\n&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;allfilteroperator&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/filters/is/alias.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/filters/is/alias.js&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/wikilabs/uni-link/filters/is/alias.js\ntype: application/javascript\nmodule-type: isfilteroperator\n\nFilter function for [is[alias]]\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nExport our filter function\n*/\nexports.alias = function(source,prefix,options) {\n\tvar results = [],\n\t\taliases = options.wiki.getAllAliases();\n\n\tif(prefix === \&quot;!\&quot;) {\n\t\tsource(function(tiddler,title) {\n\t\t\ttitle = title.toLowerCase();\n\t\t\tif (aliases.indexOf(title) === -1) results.push(title);\n\t\t});\n\t} else {\n\t\tsource(function(tiddler,title) {\n\t\t\ttitle = title.toLowerCase();\n\t\t\tif (aliases.indexOf(title) !== -1) results.push(title);\n\t\t});\n\t}\n\treturn results;\n};\n\n})();\n&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;isfilteroperator&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/make-alias-link.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/make-alias-link.js&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/wikilabs/uni-link/make-alias-link.js\ntype: application/javascript\nmodule-type: texteditoroperation\n\nText editor operation to make an alias-link\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\nexports[\&quot;make-alias-link\&quot;] = function(event,operation) {\n\tif(operation.selection) {\n\t\toperation.replacement = \&quot;[[\&quot; + operation.selection + \&quot;|?\&quot; + event.paramObject.text + \&quot;]] \&quot;;\n\t\toperation.cutStart = operation.selStart;\n\t\toperation.cutEnd = operation.selEnd;\n\t} else {\n\t\toperation.replacement = \&quot;[[\&quot; + event.paramObject.text + \&quot;|?]] \&quot;;\n\t\toperation.cutStart = operation.selStart;\n\t\toperation.cutEnd = operation.selEnd;\n\t}\n\toperation.newSelStart = operation.selStart + operation.replacement.length;\n\toperation.newSelEnd = operation.newSelStart;\n};\n\n})();\n&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;texteditoroperation&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/relinkoperations/text/wikitext/unilink.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/relinkoperations/text/wikitext/unilink.js&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/wikilabs/uni-link/relinkoperations/text/wikitext/unilink.js\ntype: application/javascript\nmodule-type: relinkwikitextrule\n\nHandles replacement in wiki text inline rules, like,\n\n[[Introduction]]\n\n[[link description|TiddlerTitle]]\n\n\\*/\n\n\&quot;use strict\&quot;;\n\nvar prettylink = require('$:/plugins/flibbles/relink/js/relinkoperations/text/wikitext/prettylink.js');\n\nfunction Unilink() {}\n\nUnilink.prototype = prettylink;\n\nmodule.exports = new Unilink();\nmodule.exports.name = \&quot;unilink\&quot;;\n\nmodule.exports.relink = function(text_or_tiddler) {\n    // Check that this version of Relink supports [object] return.\n    if (typeof text_or_tiddler === \&quot;string\&quot;) {\n        if (this.match[3] == \&quot;?\&quot;) {\n            this.parser.pos = this.matchRegExp.lastIndex;\n            // Ignore this unilink. The link portion has a \&quot;?\&quot;, so it's an alias.\n            return undefined;\n        }\n        if (this.match[2] == \&quot;|\&quot; &amp;&amp; !this.match[3] &amp;&amp; !this.match[4]) {\n            this.parser.pos = this.matchRegExp.lastIndex;\n            return { name: \&quot;unilink\&quot;, impossible: true};\n        }\n    }\n    // The underlying prettylink rule expects everything after the \&quot;|\&quot; to\n    // be the link. We'll just swap it in from the 4th position before we\n    // apply prettylink relinking.\n    this.match[2] = this.match[4];\n    return prettylink.relink.apply(this, arguments);\n};\n&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;relinkwikitextrule&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/uni-fields.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/uni-fields.js&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/wikilabs/uni-link/uni-fields.js\ntype: application/javascript\nmodule-type: widget\n\nunifields widget, derived from Fields Widget\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false, require:false, exports:false */\n\&quot;use strict\&quot;;\n\nvar Widget = require(\&quot;$:/core/modules/widgets/widget.js\&quot;).widget;\n\nvar FieldsWidget = function(parseTreeNode,options) {\n\tthis.initialise(parseTreeNode,options);\n};\n\n/*\nInherit from the base widget class\n*/\nFieldsWidget.prototype = new Widget();\n\n/*\nRender this widget into the DOM\n*/\nFieldsWidget.prototype.render = function(parent,nextSibling) {\n\tthis.parentDomNode = parent;\n\tthis.computeAttributes();\n\tthis.execute();\n\tvar textNode = this.document.createTextNode(this.text);\n\tparent.insertBefore(textNode,nextSibling);\n\tthis.domNodes.push(textNode);\n};\n\n/*\nCompute the internal state of the widget\n*/\nFieldsWidget.prototype.execute = function() {\n\t// Get parameters from our attributes\n\tthis.tiddlerTitle = this.getAttribute(\&quot;tiddler\&quot;,this.getVariable(\&quot;currentTiddler\&quot;));\n\tthis.template = this.getAttribute(\&quot;template\&quot;);\n\tthis.sort = this.getAttribute(\&quot;sort\&quot;,\&quot;yes\&quot;) === \&quot;yes\&quot;;\n\tthis.exclude = this.getAttribute(\&quot;exclude\&quot;);\n\tthis.include = this.getAttribute(\&quot;include\&quot;,null);\n\tthis.stripTitlePrefix = this.getAttribute(\&quot;stripTitlePrefix\&quot;,\&quot;no\&quot;) === \&quot;yes\&quot;;\n\tthis.sortReverse = this.getAttribute(\&quot;sortReverse\&quot;,\&quot;no\&quot;) === \&quot;yes\&quot;;\n\t// Get the value to display\n\tvar tiddler = this.wiki.getTiddler(this.tiddlerTitle);\n\n\t// Get the inclusion and exclusion list\n\tvar exclude = (this.exclude) ? this.exclude.split(\&quot; \&quot;) : [\&quot;text\&quot;];\n\t// If inclusion is defined, everything else is auto excluded\n\tvar include = (this.include) ? this.include.split(\&quot; \&quot;) : null;\n\n\t// Compose the template\n\tvar text = [];\n\tif(this.template &amp;&amp; tiddler) {\n\t\tvar fields = [];\n\t\tif (include) {\n\t\t\tfor(var i=0; i&lt;include.length; i++) {\n\t\t\t\tif(tiddler.fields[include[i]]) {\n\t\t\t\t\tfields.push(include[i]);\n\t\t\t\t}\n\t\t\t}\n\t\t} else {\n\t\t\tfor(var fieldName in tiddler.fields) {\n\t\t\t\tif(exclude.indexOf(fieldName) === -1) {\n\t\t\t\t\tfields.push(fieldName);\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\tif (this.sort) fields.sort();\n\t\tif (this.sortReverse) fields.reverse();\n\t\tfor(var f=0, fmax=fields.length; f&lt;fmax; f++) {\n\t\t\tfieldName = fields[f];\n//\t\t\tif(exclude.indexOf(fieldName) === -1) {\n\t\t\tvar row = this.template,\n\t\t\t\tvalue = tiddler.getFieldString(fieldName);\n\t\t\tif(this.stripTitlePrefix &amp;&amp; fieldName === \&quot;title\&quot;) {\n\t\t\t\tvar reStrip = /^\\{[^\\}]+\\}(.+)/mg,\n\t\t\t\t\treMatch = reStrip.exec(value);\n\t\t\t\tif(reMatch) {\n\t\t\t\t\tvalue = reMatch[1];\n\t\t\t\t}\n\t\t\t}\n\t\t\trow = $tw.utils.replaceString(row,\&quot;$name$\&quot;,fieldName);\n\t\t\trow = $tw.utils.replaceString(row,\&quot;$value$\&quot;,value);\n\t\t\trow = $tw.utils.replaceString(row,\&quot;$encoded_value$\&quot;,$tw.utils.htmlEncode(value));\n\t\t\ttext.push(row);\n//\t\t\t}\n\t\t}\n\t}\n\tthis.text = text.join(\&quot;\&quot;);\n};\n\n/*\nSelectively refreshes the widget if needed. Returns true if the widget or any of its children needed re-rendering\n*/\nFieldsWidget.prototype.refresh = function(changedTiddlers) {\n\tvar changedAttributes = this.computeAttributes();\n\tif(changedAttributes.tiddler || changedAttributes.template || changedAttributes.exclude || changedAttributes.stripTitlePrefix || changedTiddlers[this.tiddlerTitle]) {\n\t\tthis.refreshSelf();\n\t\treturn true;\n\t} else {\n\t\treturn false;\n\t}\n};\n\nexports[\&quot;uni-fields\&quot;] = FieldsWidget;\n\n})();\n&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;widget&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/uni-link.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/uni-link.js&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/wikilabs/uni-link/uni-link.js\ntype: application/javascript\nmodule-type: wikirule\n\nWiki text inline rule for uni link macros. For example:\n\n```\n[[Introduction]] ... uni-link\n\n[[Link description|?]]  ... alias-link\n[[Link description|?t]] ... alias-link - show title\n[[Link description|?c]] ... alias-link - show caption\n[[Link description|?s]] ... alias-link - show subtitle\n[[Link description|?my-field]] ... alias-link - show any field-name as link text\n\n```\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\nexports.name = \&quot;unilink\&quot;;\nexports.types = {inline: true};\n\nexports.init = function(parser) {\n\tthis.parser = parser;\n\t// Regexp to match\n//\tthis.matchRegExp = /\\[\\[(.*?)(?:\\|(.*?))?\\]\\]/mg;\n\tthis.matchRegExp = /\\[\\[(.*?)(?:(\\|)(\\?)?(.*?))?\\]\\]/mg;\n};\n\nexports.parse = function() {\n\t// Move past the match\n\tthis.parser.pos = this.matchRegExp.lastIndex;\n\t// Process the link\n\tvar text = this.match[1],\n\t\tlink = this.match[4] || text,\n\t\tcheckAlias = this.match[3] === \&quot;?\&quot;,\n\t\tuseUniLink = !(this.match[2] === \&quot;|\&quot;);\n\n\tif($tw.utils.isLinkExternal(link)) {\n\t\treturn [{\n\t\t\ttype: \&quot;element\&quot;,\n\t\t\ttag: \&quot;a\&quot;,\n\t\t\tattributes: {\n\t\t\t\thref: {type: \&quot;string\&quot;, value: link},\n\t\t\t\t\&quot;class\&quot;: {type: \&quot;string\&quot;, value: \&quot;tc-tiddlylink-external\&quot;},\n\t\t\t\ttarget: {type: \&quot;string\&quot;, value: \&quot;_blank\&quot;},\n\t\t\t\trel: {type: \&quot;string\&quot;, value: \&quot;noopener noreferrer\&quot;}\n\t\t\t},\n\t\t\tchildren: [{\n\t\t\t\ttype: \&quot;text\&quot;, text: text\n\t\t\t}]\n\t\t}];\n\t} else if (checkAlias &amp;&amp; link === \&quot;?\&quot;) {\n\t\tvar results = $tw.wiki.search(text,{caseSensitive:false, field: \&quot;title\&quot;, invert:false, literal:true});\n\t\treturn [{\n\t\t\ttype: \&quot;link\&quot;,\n\t\t\tattributes: {\n\t\t\t\tto: {type: \&quot;string\&quot;, value: (results[0]) ? results[0] : text}\n\t\t\t},\n\t\t\tchildren: [{\n\t\t\t\ttype: \&quot;text\&quot;, text: text\n\t\t\t}]\n\t\t}];\n\t} else if(checkAlias) {\n\t\tvar field = \&quot;X\&quot;; // field names are alwayse lowercase!\n\n\t\tif(link === \&quot;c\&quot;) {\n\t\t\tfield = \&quot;caption\&quot;\n\t\t} else if(link === \&quot;s\&quot;) {\n\t\t\tfield = \&quot;subtitle\&quot;\n\t\t} else if(link === \&quot;t\&quot;) {\n\t\t\tfield = \&quot;title\&quot;\n\t\t} else if (text != link) {\n\t\t\tfield = link;\n\t\t}\n\n\t\treturn [{\n\t\t\ttype: \&quot;macrocall\&quot;,\n\t\t\tname: \&quot;aka\&quot;,\n\t\t\tparams: [\n\t\t\t\t{name: \&quot;target\&quot;, value: text},\n\t\t\t\t{name: \&quot;field\&quot;, value: field},\n\t\t\t\t]\n\t\t\t}\n\t\t];\n\t} else if((text === link) &amp;&amp; useUniLink) {\n\t\t// Since V 1.1.0 new link-backlink detection implemented\n\t\t// Overwrites the core $tw.wiki.getTiddlerLinks() method with own version\n\t\treturn [{\n\t\t\ttype: \&quot;macrocall\&quot;,\n\t\t\tname: \&quot;uni-link\&quot;,\n\t\t\tparams: [\n\t\t\t\t{name: \&quot;tid\&quot;, value: text}\n\t\t\t\t]\n\t\t\t}\n\t\t];\n\t} else {\n\t\treturn [{\n\t\t\ttype: \&quot;link\&quot;,\n\t\t\tattributes: {\n\t\t\t\tto: {type: \&quot;string\&quot;, value: link}\n\t\t\t},\n\t\t\tchildren: [{\n\t\t\t\ttype: \&quot;text\&quot;, text: text\n\t\t\t}]\n\t\t}];\n\t}\n};\n\n})();\n&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;wikirule&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/wiki-ext.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/wiki-ext.js&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/wikilabs/uni-link/wiki-ext.js\ntype: application/javascript\nmodule-type: wikimethod\n\nExtension methods for the $tw.Wiki object\n\nAdds the following properties to the wiki object:\n\nexports.getTiddlerAliasLinks = function(title) {\nexports.getTiddlerAliasBacklinks = function(targetTitle) {\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n//var widget = require(\&quot;$:/core/modules/widgets/widget.js\&quot;);\n\n\n/*\nReturn an array of tiddler titles that are directly linked within the given parse tree\n */\nexports.extractLinks = function(parseTreeRoot) {\n\t// Count up the links\n\tvar links = [],\n\t\tcheckParseTree = function(parseTree) {\n\t\t\tfor(var t=0; t&lt;parseTree.length; t++) {\n\t\t\t\tvar parseTreeNode = parseTree[t];\n\t\t\t\tif(parseTreeNode.type === \&quot;link\&quot; &amp;&amp; parseTreeNode.attributes.to &amp;&amp; parseTreeNode.attributes.to.type === \&quot;string\&quot;) {\n\t\t\t\t\tvar value = parseTreeNode.attributes.to.value;\n\t\t\t\t\tif(links.indexOf(value) === -1) {\n\t\t\t\t\t\tlinks.push(value);\n\t\t\t\t\t}\n\t\t\t\t} else if (parseTreeNode.type === \&quot;macrocall\&quot; &amp;&amp; parseTreeNode.name === \&quot;uni-link\&quot; &amp;&amp; parseTreeNode.params &amp;&amp; parseTreeNode.params[0].value) {\n\t\t\t\t\tvar value = parseTreeNode.params[0].value;\n\t\t\t\t\tif(links.indexOf(value) === -1) {\n\t\t\t\t\t\tlinks.push(value);\n\t\t\t\t\t}\n\t\t\t\t} // else if type===\&quot;macrocall\&quot;\n\n\t\t\t\tif(parseTreeNode.children) {\n\t\t\t\t\tcheckParseTree(parseTreeNode.children);\n\t\t\t\t}\n\t\t\t}\n\t\t};\n\tcheckParseTree(parseTreeRoot);\n\treturn links;\n};\n\n/*\nReturn an array of tiddler titles that are directly linked from the specified tiddler\n*/\nexports.getTiddlerLinksXXX = function(title) {\n\tvar self = this;\n\t// We'll cache the links so they only get computed if the tiddler changes\n\treturn this.getCacheForTiddler(title,\&quot;links\&quot;,function() {\n\t\t// Parse the tiddler\n\t\tvar parser = self.parseTiddler(title);\n\t\t// Count up the links\n\t\tvar links = [],\n\t\t\tcheckParseTree = function(parseTree) {\n\t\t\t\tfor(var t=0; t&lt;parseTree.length; t++) {\n\t\t\t\t\tvar parseTreeNode = parseTree[t];\n\t\t\t\t\tif(parseTreeNode.type === \&quot;link\&quot; &amp;&amp; parseTreeNode.attributes.to &amp;&amp; parseTreeNode.attributes.to.type === \&quot;string\&quot;) {\n\t\t\t\t\t\tvar value = parseTreeNode.attributes.to.value;\n\t\t\t\t\t\tif(links.indexOf(value) === -1) {\n\t\t\t\t\t\t\tlinks.push(value);\n\t\t\t\t\t\t}\n\t\t\t\t\t} else if (parseTreeNode.type === \&quot;macrocall\&quot; &amp;&amp; parseTreeNode.name === \&quot;uni-link\&quot; &amp;&amp; parseTreeNode.params &amp;&amp; parseTreeNode.params[0].value) {\n\t\t\t\t\t\tvar value = parseTreeNode.params[0].value;\n\t\t\t\t\t\tif(links.indexOf(value) === -1) {\n\t\t\t\t\t\t\tlinks.push(value);\n\t\t\t\t\t\t}\n\t\t\t\t\t} // else if type===\&quot;macrocall\&quot;\n\n\t\t\t\t\tif(parseTreeNode.children) {\n\t\t\t\t\t\tcheckParseTree(parseTreeNode.children);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t};\n\t\tif(parser) {\n\t\t\tcheckParseTree(parser.tree);\n\t\t}\n\t\treturn links;\n\t});\n};\n\n/*\nAlias backlink handling\n*/\nfunction aliasInit(title) {\n\t// Parse the tiddler\n\tvar parser = this.parseTiddler(title);\n\t// Count up the links\n\tvar links = [],\n\t\tcheckParseTree = function(parseTree) {\n\t\t\tfor(var t=0; t&lt;parseTree.length; t++) {\n\t\t\t\tvar parseTreeNode = parseTree[t];\n\t\t\t\tif(parseTreeNode.type === \&quot;macrocall\&quot; &amp;&amp; parseTreeNode.name === \&quot;aka\&quot;) {\n\t\t\t\t\tvar value = parseTreeNode.params[0].value;\n\t\t\t\t\tif(links.indexOf(value) === -1) {\n\t\t\t\t\t\tlinks.push(value);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tif(parseTreeNode.children) {\n\t\t\t\t\tcheckParseTree(parseTreeNode.children);\n\t\t\t\t}\n\t\t\t}\n\t\t};\n\tif(parser) {\n\t\tcheckParseTree(parser.tree);\n\t}\n\t/*\n\tFor every tiddler invoke a callback(title,tiddler) with `this` set to the wiki object. Options include:\n\tsortField: field to sort by\n\texcludeTag: tag to exclude\n\tincludeSystem: whether to include system tiddlers (defaults to false)\n\t*/\n\tvar backlinks = []\n\tthis.forEachTiddler({includeSystem:true}, function(ttl,tiddler) {\n\t\tif (tiddler.fields[\&quot;aliases\&quot;]) {\n\t\t\t// var fields = tiddler.fields[\&quot;aliases\&quot;];\n\t\t\tvar fields = $tw.utils.parseStringArray(tiddler.fields[\&quot;aliases\&quot;]);\n\t\t\tfields = fields.map(function (el){\n\t\t\t\treturn el.toLowerCase();\n\t\t\t});\n\t\t\tlinks.map( function (el) {\n\t\t\t\tif (fields.indexOf(el.toLowerCase()) != -1) backlinks.push(ttl);\n\t\t\t})\n\t\t} // if tiddler aliases\n\t});\n\n\tif ((backlinks.length === 0) &amp;&amp; (links.length &gt; 0)) {\n\t\tbacklinks[0] = \&quot;?\&quot;;\n\t}\n\n\treturn backlinks;\n}\n\nexports.getAllAliases = function() {\n\tvar self = this,\n\t\taliases = \&quot;\&quot;;\n\t/*\n\tFor every tiddler invoke a callback(title,tiddler) with `this` set to the wiki object. Options include:\n\tsortField: field to sort by\n\texcludeTag: tag to exclude\n\tincludeSystem: whether to include system tiddlers (defaults to false)\n\t*/\n\tself.forEachTiddler({includeSystem:true}, function(title,tiddler) {\n\t\tif (tiddler.fields[\&quot;aliases\&quot;]) {\n//\t\t\t$tw.utils.pushTop(aliases, this.getCacheForTiddler(title,\&quot;alias\&quot;,aliasInit.bind(this, title)));\n\t\t\taliases = aliases + ` ${tiddler.fields.aliases}`;\n\t\t} // if tiddler aliases\n\t});\n\taliases = aliases.toLowerCase();\n\treturn $tw.utils.parseStringArray(aliases);\n};\n\n\n/*\nReturn an array of tiddler titles that are alias linked from the specified tiddler\n*/\nexports.getTiddlerAliasLinks = function(title) {\n\tvar self = this;\n\n\t// We'll cache the links so they only get computed if the tiddler changes\n\treturn this.getCacheForTiddler(title,\&quot;alias\&quot;,aliasInit.bind(this, title));\n};\n\n/*\nReturn an array of tiddler titles that link to the specified tiddler\n*/\nexports.getTiddlerAliasBacklinks = function(targetTitle) {\n\tvar self = this,\n\t\tbacklinks = [];\n\tthis.forEachTiddler(function(title,tiddler) {\n\t\tvar links = self.getTiddlerAliasLinks(title);\n\t\tif(links.indexOf(targetTitle) !== -1) {\n\t\t\tbacklinks.push(title);\n\t\t}\n\t});\n\treturn backlinks;\n};\n\n})();\n\n&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;wikimethod&quot;
+        },
+        &quot;$:/core/images/aliasify&quot;: {
+            &quot;title&quot;: &quot;$:/core/images/aliasify&quot;,
+            &quot;created&quot;: &quot;20180909082646243&quot;,
+            &quot;modified&quot;: &quot;20180909091537847&quot;,
+            &quot;tags&quot;: &quot;$:/tags/Image&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;&lt;svg class=\&quot;tc-linkify-button tc-image-button\&quot; width=\&quot;22pt\&quot; height=\&quot;22pt\&quot; viewBox=\&quot;0 0 128 128\&quot;&gt;\n&lt;path d=\&quot;m17.031 31.919h-7.983v64.931h7.983v6.92h-17.031v-78.77h17.031zm24.66 0h-7.983v64.931h7.983v6.92h-17.031v-78.77h17.03v6.919zm44.619 64.931h7.982v-64.93h-7.982v-6.92h17.031v78.77h-17.031zm24.659 0h7.983v-64.93h-7.983v-6.92h17.031v78.77h-17.031z\&quot; fill-rule=\&quot;evenodd\&quot;/&gt;\n &lt;path d=\&quot;m45.188 34.74v62.668h7.3507c-0.02998-28.03 0.06401-32 0.04791-62.668zm28.464 2.6834c-2.6133 0-5.1484 0.36297-7.6094 1.0734-2.4357 0.7104-4.8412 1.7835-7.2261 3.2297v7.159c2.461-1.6999 4.8147-2.9934 7.0728-3.8814 2.2834-0.88801 4.4263-1.3321 6.4306-1.3321 2.7401 0 4.9348 0.69381 6.584 2.0892 1.6745 1.3954 2.5205 3.2238 2.5205 5.4819 0 1.2432-0.33704 2.4589-0.9967 3.6514-0.63429 1.1925-1.6685 2.46-3.1147 3.8047l-3.431 3.3926c-2.2834 2.182-3.7748 4.0915-4.4852 5.7406-0.71039 1.6491-1.0638 3.7627-1.0638 6.3252v5.8556h7.2644v-4.6768c0-1.3193 0.03891-2.3631 0.115-3.1243 0.07613-0.76115 0.19278-1.4031 0.34501-1.9359 0.20297-0.63429 0.5434-1.2858 1.0255-1.9455 0.50744-0.68504 1.3568-1.6251 2.5493-2.8176l3.3447-3.268c2.2834-2.182 3.888-4.1399 4.8014-5.8652 0.91338-1.7506 1.3705-3.592 1.3705-5.5202 0-4.0341-1.4231-7.276-4.2647-9.737-2.8162-2.461-6.5637-3.6993-11.232-3.6993zm-5.5489 48.187v9.6604h7.7244v-9.6604z\&quot; fill-rule=\&quot;evenodd\&quot; stroke-width=\&quot;1.1245\&quot;/&gt;\n&lt;/svg&gt;\n&quot;
+        },
+        &quot;$:/core/ui/EditorToolbar/aliasify&quot;: {
+            &quot;title&quot;: &quot;$:/core/ui/EditorToolbar/aliasify&quot;,
+            &quot;caption&quot;: &quot;{{$:/language/Buttons/Aliasify/Caption}}&quot;,
+            &quot;condition&quot;: &quot;[&lt;targetTiddler&gt;!has[type]] [&lt;targetTiddler&gt;type[text/vnd.tiddlywiki]]&quot;,
+            &quot;created&quot;: &quot;20180909082308073&quot;,
+            &quot;description&quot;: &quot;{{$:/language/Buttons/Aliasify/Hint}}&quot;,
+            &quot;icon&quot;: &quot;$:/core/images/aliasify&quot;,
+            &quot;list-before&quot;: &quot;$:/core/ui/EditorToolbar/mono-block&quot;,
+            &quot;modified&quot;: &quot;20180909091537847&quot;,
+            &quot;shortcuts&quot;: &quot;((aliasify))&quot;,
+            &quot;tags&quot;: &quot;$:/tags/EditorToolbar&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;&lt;$action-sendmessage\n\t$message=\&quot;tm-edit-text-operation\&quot;\n\t$param=\&quot;wrap-selection\&quot;\n\tprefix=\&quot;[[\&quot;\n\tsuffix=\&quot;|?]]\&quot;\n/&gt;\n&quot;
+        },
+        &quot;$:/core/ui/TiddlerInfo/References&quot;: {
+            &quot;title&quot;: &quot;$:/core/ui/TiddlerInfo/References&quot;,
+            &quot;caption&quot;: &quot;{{$:/language/TiddlerInfo/References/Caption}}&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TiddlerInfo&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;\\define lingo-base() $:/language/TiddlerInfo/\n&lt;$list filter=\&quot;[all[current]backlinks[]sort[title]]\&quot; emptyMessage=&lt;&lt;lingo References/Empty&gt;&gt; template=\&quot;$:/core/ui/ListItemTemplate\&quot;&gt;&lt;/$list&gt;\n&lt;hr&gt;\n\n''Alias backlinks from tiddlers:''\n\n&lt;$list filter=\&quot;[all[current]aliasbacklinks[]sort[title]]\&quot; emptyMessage=\&quot;No alias links to this one\&quot; template=\&quot;$:/core/ui/ListItemTemplate\&quot;&gt;&lt;/$list&gt;\n&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/ui/ControlPanel/settings&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/ControlPanel/settings&quot;,
+            &quot;caption&quot;: &quot;uni-link&quot;,
+            &quot;created&quot;: &quot;20171205224905238&quot;,
+            &quot;modified&quot;: &quot;20171205230149750&quot;,
+            &quot;tags&quot;: &quot;$:/tags/ControlPanel&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;!! [[Enable Aliases Footer|$:/plugins/wikilabs/uni-link/aka-footer]]\n\n&lt;&lt;&lt;\n&lt;$checkbox tiddler=\&quot;$:/plugins/wikilabs/uni-link/aka-footer\&quot; tag=\&quot;$:/tags/ViewTemplate\&quot;&gt; Enable Aliases Footer&lt;/$checkbox&gt;\n&lt;&lt;&lt;\n\n!! [[Uni-link - Default field|$:/config/wikilabs/uni-link/field]]\n\nUse the following field as link text, if available: \n\n&lt;&lt;&lt;\n&lt;$tiddler tiddler=\&quot;$:/config/wikilabs/uni-link/field\&quot;&gt;\n&lt;$radio value=\&quot;caption\&quot;&gt; caption&lt;/$radio&gt;&lt;br&gt;\n&lt;$radio value=\&quot;subtitle\&quot;&gt; subtitle&lt;/$radio&gt;&lt;br&gt;\n&lt;$radio value=\&quot;\&quot;&gt; title&lt;/$radio&gt;&lt;br&gt;\n&lt;/$tiddler&gt;\n&lt;&lt;&lt;\n\n!! Additional Info\n\nSee: [[$:/plugins/wikilabs/uni-link/readme]]\n&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/ui/EditorToolbar/alias-dropdown&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/EditorToolbar/alias-dropdown&quot;,
+            &quot;created&quot;: &quot;20190210145516221&quot;,
+            &quot;modified&quot;: &quot;20190210194738308&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;\\define lingo-base() $:/language/Buttons/Link/\n\n\\define add-link-actions()\n&lt;$action-sendmessage $message=\&quot;tm-edit-text-operation\&quot; $param=\&quot;make-alias-link\&quot; text={{$(linkTiddler)$}} /&gt;\n&lt;$action-deletetiddler $tiddler=&lt;&lt;dropdown-state&gt;&gt; /&gt;\n&lt;$action-deletetiddler $tiddler=&lt;&lt;searchTiddler&gt;&gt; /&gt;\n&lt;$action-deletetiddler $tiddler=&lt;&lt;linkTiddler&gt;&gt; /&gt;\n\\end\n\n\\define external-link()\n&lt;$button class=\&quot;tc-btn-invisible\&quot; style=\&quot;width:auto; display:inline-block; background:none; padding:0;\&quot; actions=&lt;&lt;add-link-actions&gt;&gt;&gt;\n{{$:/core/images/chevron-right}}\n&lt;/$button&gt;\n\\end\n\n\\define body(config-title)\n''&lt;&lt;lingo Hint&gt;&gt;''\n\n&lt;$vars searchTiddler=\&quot;\&quot;\&quot;$config-title$/search\&quot;\&quot;\&quot; linkTiddler=\&quot;\&quot;\&quot;$config-title$/link\&quot;\&quot;\&quot; linktext=\&quot;\&quot; &gt;\n\n&lt;$vars linkTiddler=&lt;&lt;searchTiddler&gt;&gt;&gt;\n&lt;$keyboard key=\&quot;ENTER\&quot; actions=&lt;&lt;add-link-actions&gt;&gt;&gt;\n&lt;$edit-text tiddler=&lt;&lt;searchTiddler&gt;&gt; type=\&quot;search\&quot; tag=\&quot;input\&quot; focus=\&quot;true\&quot; placeholder={{$:/language/Search/Search}} default=\&quot;\&quot;/&gt;\n&lt;$reveal tag=\&quot;span\&quot; state=&lt;&lt;searchTiddler&gt;&gt; type=\&quot;nomatch\&quot; text=\&quot;\&quot;&gt;\n&lt;&lt;external-link&gt;&gt;\n&lt;$button class=\&quot;tc-btn-invisible\&quot; style=\&quot;width:auto; display:inline-block; background:none; padding:0;\&quot;&gt;\n&lt;$action-setfield $tiddler=&lt;&lt;searchTiddler&gt;&gt; text=\&quot;\&quot; /&gt;\n{{$:/core/images/close-button}}\n&lt;/$button&gt;\n&lt;/$reveal&gt;\n&lt;/$keyboard&gt;\n&lt;/$vars&gt;\n\n&lt;$reveal tag=\&quot;div\&quot; state=&lt;&lt;searchTiddler&gt;&gt; type=\&quot;nomatch\&quot; text=\&quot;\&quot;&gt;\n\n&lt;$linkcatcher actions=&lt;&lt;add-link-actions&gt;&gt; to=&lt;&lt;linkTiddler&gt;&gt;&gt;\n\n{{$:/plugins/wikilabs/uni-link/ui/EditorToolbar/SearchResults}}\n\n&lt;/$linkcatcher&gt;\n\n&lt;/$reveal&gt;\n\n&lt;/$vars&gt;\n\n\\end\n\n&lt;$macrocall $name=\&quot;body\&quot; config-title=&lt;&lt;qualify \&quot;$:/state/Link/\&quot;&gt;&gt;/&gt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/ui/EditorToolbar/alias&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/EditorToolbar/alias&quot;,
+            &quot;button-classes&quot;: &quot;tc-text-editor-toolbar-item-start-group&quot;,
+            &quot;caption&quot;: &quot;{{$:/language/Buttons/Make/Alias/Caption}}&quot;,
+            &quot;condition&quot;: &quot;[&lt;targetTiddler&gt;!has[type]] [&lt;targetTiddler&gt;type[text/vnd.tiddlywiki]]&quot;,
+            &quot;created&quot;: &quot;20190210145538580&quot;,
+            &quot;description&quot;: &quot;{{$:/language/Buttons/Make/Alias/Hint}}&quot;,
+            &quot;dropdown&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/EditorToolbar/alias-dropdown&quot;,
+            &quot;icon&quot;: &quot;$:/core/images/link&quot;,
+            &quot;modified&quot;: &quot;20190210194833231&quot;,
+            &quot;shortcuts&quot;: &quot;((alias-link))&quot;,
+            &quot;tags&quot;: &quot;$:/tags/EditorToolbar&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/ui/EditorToolbar/SearchResults&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/EditorToolbar/SearchResults&quot;,
+            &quot;created&quot;: &quot;20190210164849276&quot;,
+            &quot;modified&quot;: &quot;20190210194648558&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;\\whitespace trim\n&lt;div class=\&quot;tc-search-results\&quot;&gt;\n\n&lt;$list filter=\&quot;[all[shadows+tiddlers]tag[$:/tags/AliasResults]!has[draft.of]butfirst[]limit[1]]\&quot; emptyMessage=\&quot;\&quot;\&quot;\n&lt;$list filter=\&quot;[all[shadows+tiddlers]tag[$:/tags/AliasResults]!has[draft.of]]\&quot;&gt;\n&lt;$transclude mode=\&quot;block\&quot;/&gt;\n&lt;/$list&gt;\n\&quot;\&quot;\&quot;&gt;\n\n&lt;$macrocall $name=\&quot;tabs\&quot; tabsList=\&quot;[all[shadows+tiddlers]tag[$:/tags/AliasResults]!has[draft.of]]\&quot; default={{$:/config/SearchResults/Default}}/&gt;\n\n&lt;/$list&gt;\n&lt;/div&gt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/ui/EditorToolbar/SearchTemplate&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/EditorToolbar/SearchTemplate&quot;,
+            &quot;caption&quot;: &quot;Aliases&quot;,
+            &quot;created&quot;: &quot;20190210153457679&quot;,
+            &quot;modified&quot;: &quot;20190210194716605&quot;,
+            &quot;tags&quot;: &quot;$:/tags/AliasResults&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;\\define getRealName()\nTiddler -&gt; &lt;&lt;aka-no-links target:\&quot;\&quot;\&quot;$(alias)$\&quot;\&quot;\&quot;&gt;&gt;\n\\end\n\\define searchResultList()\n\\whitespace trim\n&lt;$list filter=\&quot;[all[aliases]search:{$(searchTiddler)$}sort[title]]\&quot; variable=alias&gt;\n  &lt;div class=\&quot;tc-menu-list-item\&quot;&gt;\n   &lt;$link to=&lt;&lt;alias&gt;&gt; tooltip=&lt;&lt;getRealName&gt;&gt; &gt;&lt;&lt;alias&gt;&gt;&lt;/$link&gt;\n  &lt;/div&gt;\n&lt;/$list&gt;\n\\end\n&lt;&lt;searchResultList&gt;&gt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases&quot;,
+            &quot;caption&quot;: &quot;Aliases&quot;,
+            &quot;created&quot;: &quot;20171214213808142&quot;,
+            &quot;list-before&quot;: &quot;$:/core/ui/MoreSideBar/Recent&quot;,
+            &quot;modified&quot;: &quot;20171214215245931&quot;,
+            &quot;tags&quot;: &quot;$:/tags/MoreSideBar&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;&lt;div class=\&quot;uni-link-sidebar tc-sidebar-lists\&quot;&gt;\n&lt;&lt;tabs \&quot;[all[shadows+tiddlers]tag[$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases]!has[draft.of]]\&quot; \&quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/byAlias\&quot; \&quot;$:/state/tab/Aliases\&quot; &gt;&gt;\n&lt;/div&gt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/byAlias&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/byAlias&quot;,
+            &quot;caption&quot;: &quot;Alias&quot;,
+            &quot;created&quot;: &quot;20171214203739053&quot;,
+            &quot;list-before&quot;: &quot;$:/core/ui/MoreSideBar/Recent&quot;,
+            &quot;modified&quot;: &quot;20171214213743140&quot;,
+            &quot;tags&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;\\whitespace trim\n&lt;$list filter=\&quot;[all[aliases]sort[title]]\&quot; variable=alias&gt;\n  &lt;div class=\&quot;tc-menu-list-item\&quot;&gt;\n   &lt;$macrocall $name=\&quot;aka\&quot; target=&lt;&lt;alias&gt;&gt; /&gt;\n     &lt;div class=\&quot;tc-menu-list-subitem\&quot;&gt;\n       &lt;$macrocall $name=\&quot;aka-no-links\&quot; target=&lt;&lt;alias&gt;&gt; /&gt;\n      &lt;/div&gt;\n   &lt;/div&gt;\n&lt;/$list&gt;\n&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/byTitle&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/byTitle&quot;,
+            &quot;caption&quot;: &quot;Title&quot;,
+            &quot;created&quot;: &quot;20171214201333460&quot;,
+            &quot;list-before&quot;: &quot;$:/core/ui/MoreSideBar/Recent&quot;,
+            &quot;modified&quot;: &quot;20171214213745643&quot;,
+            &quot;tags&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;\\whitespace trim\n&lt;$list filter=\&quot;[has[aliases]sort[title]]\&quot;&gt;\n  &lt;div class=\&quot;tc-menu-list-item\&quot;&gt;\n    &lt;$link to=&lt;&lt;currentTiddler&gt;&gt; &gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/$link&gt;\n    &lt;$list filter=\&quot;[list[!!aliases]]\&quot;&gt;\n      &lt;div class=\&quot;tc-menu-list-subitem\&quot;&gt;\n        &lt;$view field=title/&gt;\n      &lt;/div&gt;\n    &lt;/$list&gt;\n  &lt;/div&gt;\n&lt;/$list&gt;\n&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/undefined&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases/undefined&quot;,
+            &quot;caption&quot;: &quot;Undefined&quot;,
+            &quot;created&quot;: &quot;20180202150804918&quot;,
+            &quot;list-before&quot;: &quot;$:/core/ui/MoreSideBar/Recent&quot;,
+            &quot;modified&quot;: &quot;20180202151517364&quot;,
+            &quot;tags&quot;: &quot;$:/plugins/wikilabs/uni-link/ui/MoreSideBar/Aliases&quot;,
+            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
+            &quot;text&quot;: &quot;&lt;$list filter=\&quot;[[?]aliasbacklinks[]sort[title]]\&quot; template=\&quot;$:/core/ui/ListItemTemplate\&quot; emptyMessage=\&quot;No undefined Aliases\&quot;/&gt;\n\n---\n\nYou'll need to reload the page, to update this list!\n&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/uni-link-macro&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/uni-link-macro&quot;,
+            &quot;tags&quot;: &quot;$:/tags/Macro&quot;,
+            &quot;text&quot;: &quot;\\define getClass()\n&lt;$uni-fields template=\&quot;uni-$name$\&quot; include=$(field-name)$ sort=\&quot;no\&quot;/&gt; uni-link\n\\end\n\n\\define linkText()\n\\whitespace trim\n&lt;$set name=\&quot;tv-wikilinks\&quot; value=\&quot;no\&quot;&gt;\n&lt;span class=&lt;&lt;class&gt;&gt; &gt;\n  &lt;$transclude field=$(field-name)$ &gt;&lt;$transclude field=title/&gt;&lt;/$transclude&gt;\n&lt;/span&gt;\n&lt;/$set&gt;\n\\end\n\n\\define uni-link(tid)\n\\whitespace trim\n&lt;$tiddler tiddler=\&quot;\&quot;\&quot;$tid$\&quot;\&quot;\&quot;&gt;\n  &lt;$vars field-name={{{[[$:/config/wikilabs/uni-link/field]get[text]]~[[title]]}}} &gt;\n    &lt;$wikify name=class text=&lt;&lt;getClass&gt;&gt; &gt;\n      &lt;$link to=\&quot;\&quot;\&quot;$tid$\&quot;\&quot;\&quot; tooltip=\&quot;\&quot;\&quot;uni-link -&gt; $tid$\&quot;\&quot;\&quot;&gt;&lt;&lt;linkText&gt;&gt;&lt;/$link&gt;\n    &lt;/$wikify&gt;\n  &lt;/$vars&gt;\n&lt;/$tiddler&gt;\n\\end\n\n&lt;pre&gt;&lt;$view field=\&quot;text\&quot;/&gt;&lt;/pre&gt;&quot;
+        },
+        &quot;$:/plugins/wikilabs/uni-link/styles&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/wikilabs/uni-link/styles&quot;,
+            &quot;tags&quot;: &quot;$:/tags/Stylesheet&quot;,
+            &quot;text&quot;: &quot;.uni-link {\n  color: navy;\n}\n\n.uni-caption {\n  color: #2a699f;\n}\n\n.uni-subtitle {\n  color: #0e8446;\n}\n\n.uni-alias {\n  color: #7557d8;\n}\n\n.uni-alias-missing {\n  color: red;\n}\n\n.uni-link-sidebar .tc-tab-buttons {\n  padding-top: 0;\n}\n&quot;
+        }
+    }
+}</pre>
+</div>
+<div created="20210526211410900" creator="user" list-after="$:/core/ui/ViewTemplate/title" modified="20210526235315714" modifier="user" tags="$:/tags/ViewTemplate Alias" title="$:/plugins/wikilabs/uni-link/aka-footer" type="text/vnd.tiddlywiki">
+<pre>&lt;$list filter=&quot;[all[current]has[aliases]]&quot;&gt;
+&lt;span class=&quot;uni-link-aka-footer&quot;&gt;
+{{||$:/plugins/wikilabs/uni-link/aka-footer/template}}
+&lt;/span&gt;
+&lt;/$list&gt;</pre>
+</div>
+<div created="20210526211145974" creator="user" modified="20210526235441017" modifier="user" tags="Alias" title="$:/plugins/wikilabs/uni-link/aka-footer/template" type="text/vnd.tiddlywiki">
+<pre>//Alias// : &lt;&lt;showAliases delim:&quot; ,&quot;&gt;&gt;</pre>
+</div>
+<div created="20201112214725096" creator="user" modified="20210526162743182" modifier="user" title="$:/SiteSubtitle">
+<pre>Ressources pour apprendre à coder</pre>
 </div>
 <div created="20201112214720665" creator="user" modified="20210522205232103" modifier="user" title="$:/SiteTitle">
 <pre>DevWeb - Front End</pre>
 </div>
-<div created="20210201015607790" creator="user" modified="20210526160353750" modifier="user" title="$:/state/advancedsearch/currentTab">
+<div created="20210201015607790" creator="user" modified="20210527000714705" modifier="user" title="$:/state/advancedsearch/currentTab">
 <pre>$:/core/ui/AdvancedSearch/System</pre>
 </div>
 <div created="20210520121708812" creator="user" modified="20210520121709812" modifier="user" title="$:/state/edit/references-719921787">
@@ -17577,6 +17902,12 @@ Selectively refreshes the widget if needed. Returns true if the widget or any of
 <div created="20210523135527330" creator="user" modified="20210523135527330" modifier="user" title="$:/state/Excise/-853768905/tagnew">
 <pre>yes</pre>
 </div>
+<div created="20210526213745568" creator="user" modified="20210526213745568" modifier="user" title="$:/state/folded/$:/devweb-frontend/stylesheet/tw-version">
+<pre>hide</pre>
+</div>
+<div created="20210526213739517" creator="user" modified="20210526213739517" modifier="user" title="$:/state/folded/$:/palettes/Twilight">
+<pre>hide</pre>
+</div>
 <div created="20210525154659300" creator="user" modified="20210525154702788" modifier="user" title="$:/state/Link/-2014864104/search">
 <pre></pre>
 </div>
@@ -17589,13 +17920,13 @@ Selectively refreshes the widget if needed. Returns true if the widget or any of
 <div created="20210126154220717" modified="20210126154220717" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20210510122842886" creator="user" modified="20210526154031797" modifier="user" title="$:/state/sidebar">
+<div created="20210510122842886" creator="user" modified="20210526224839927" modifier="user" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20210315154404628" creator="user" modified="20210522213226059" modifier="user" title="$:/state/tab--1418380610">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Languages</pre>
 </div>
-<div created="20210201015607791" creator="user" modified="20210526160353750" modifier="user" title="$:/state/tab--1498284803">
+<div created="20210201015607791" creator="user" modified="20210527000714705" modifier="user" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/System</pre>
 </div>
 <div created="20210522232839590" creator="user" modified="20210522232839590" modifier="user" title="$:/state/tab--157650655">
@@ -17634,7 +17965,7 @@ Selectively refreshes the widget if needed. Returns true if the widget or any of
 <div created="20210522231508776" creator="user" modified="20210522231511273" modifier="user" title="$:/state/tab-161949492">
 <pre>$:/core/ui/TiddlerInfo/Advanced</pre>
 </div>
-<div created="20210115194926272" creator="user" modified="20210526161505937" modifier="user" title="$:/state/tab-1749438307">
+<div created="20210115194926272" creator="user" modified="20210527000754486" modifier="user" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
 <div created="20210523155854666" creator="user" modified="20210523155854666" modifier="user" title="$:/state/tab-1903144459">
@@ -17655,11 +17986,17 @@ Selectively refreshes the widget if needed. Returns true if the widget or any of
 <div created="20210523132746016" creator="user" modified="20210523132746016" modifier="user" title="$:/state/tab-943989570">
 <pre>$:/core/ui/TiddlerInfo/References</pre>
 </div>
-<div created="20210115195813582" creator="user" modified="20210526154255451" modifier="user" title="$:/state/tab/sidebar--595412856">
+<div created="20210115195813582" creator="user" modified="20210527000332492" modifier="user" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
 <div created="20210127000723467" creator="user" modified="20210315154335118" modifier="user" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
+</div>
+<div created="20210526235852486" creator="user" modified="20210526235852486" modifier="user" title="$:/state/tag-manager/tags">
+<pre>open</pre>
+</div>
+<div created="20210526231107532" creator="user" modified="20210526231107532" modifier="user" title="$:/state/tag-manager/todo">
+<pre>open</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
@@ -17667,7 +18004,7 @@ Selectively refreshes the widget if needed. Returns true if the widget or any of
 <div created="20210201132301785" creator="u" modified="20210201132302326" modifier="use" title="$:/status/UserName">
 <pre>user</pre>
 </div>
-<div created="20210526161503812" creator="user" list="$:/ControlPanel Index" modified="20210526161503812" modifier="user" title="$:/StoryList">
+<div created="20210527000751268" creator="user" list="$:/ControlPanel Index" modified="20210527000751268" modifier="user" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210525130612724" creator="user" list="$:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body" modified="20210525130614322" modifier="user" tags="tags" title="$:/tags/ViewTemplate">
@@ -17791,7 +18128,7 @@ Selectively refreshes the widget if needed. Returns true if the widget or any of
 <div created="20201129043801427" modified="20201129043801427" title="$:/view">
 <pre>classic</pre>
 </div>
-<div created="20210522234441163" creator="user" modified="20210523122708672" modifier="user" source="https://angular.io/guide/glossary#subscriber" tags="Angular glossaire" title="Abonné">
+<div aliases="[[subscriber]] [[subscribers]]" created="20210522234441163" creator="user" modified="20210526213509969" modifier="user" source="https://angular.io/guide/glossary#subscriber" tags="Angular glossaire" title="Abonné">
 <pre>Une fonction qui définit comment obtenir ou générer des valeurs ou messages à publier. Cette fonction est exécutée quand un consommateur appel la méthode `subscribe()` d'un [[observable|Observable]].
 
 L'acte de s'abonner à un observable déclenche son exécution, lui associe des rappels (callbacks) et crée un objet `Subscription` qui permet de se désabonner.
@@ -17802,11 +18139,10 @@ L'acte de s'abonner à un observable déclenche son exécution, lui associe des 
 * `error` : envois une Erreur Javascript ou une exception.
 * `complete` : n'envoie pas de valeur, mais le gestionnaire (handler) est appelé quand l'appel est finit. Les valeurs planifiées peuvent continuer à être renvoyées après la fin de l'appel.</pre>
 </div>
-<div created="20210525115153189" creator="user" list-after="$:/core/ui/ViewTemplate/body" modified="20210525153513016" modifier="user" tags="TW5 $:/tags/ViewTemplate source" title="Afficher la source">
+<div created="20210525115153189" creator="user" list-after="$:/core/ui/ViewTemplate/body" modified="20210526235615812" modifier="user" tags="TW5 $:/tags/ViewTemplate source" title="Afficher la source">
 <pre>&lt;$list filter=&quot;[all[current]has[source]]&quot;&gt;
-&lt;span class=&quot;source&quot;&gt;
+&lt;hr&gt;
 ^^Source : {{!!source}}^^
-&lt;/span&gt;
 &lt;/$list&gt;</pre>
 </div>
 <div created="20210525120921831" creator="user" modified="20210525123640318" modifier="user" tags="TW5 $:/tags/ViewTemplate [[lister les tiddlers taggés]]" title="Afficher les tiddlers liés au tag">
@@ -17828,6 +18164,9 @@ Le 3 correspond à la version. Bootstrap est enregistré localement dans le doss
 
 voir [[Déclarer des styles dans angular|Déclarer des styles importés dans angular]] pour que Angular prenne en compte l'ajout.</pre>
 </div>
+<div created="20210526233502282" creator="user" modified="20210526233504329" modifier="user" tags="tags" title="Alias">
+<pre></pre>
+</div>
 <div created="20210520114821377" creator="user" modified="20210526154820825" modifier="user" tags="" title="Angular">
 <pre>Angular est un framework qui permet de créer des applications one page.
 
@@ -17843,7 +18182,7 @@ Pour une explications des termes spécifiques à angular, consulter le [[glossai
 
 Voir aussi [[Schematics CLI]].</pre>
 </div>
-<div created="20210523124943836" creator="user" modified="20210523124956761" modifier="user" source="https://angular.io/guide/universal" tags="Angular guide todo" title="Angular Universal : rendu côté serveur">
+<div created="20210523124943836" creator="user" modified="20210527000611885" modifier="user" source="https://angular.io/guide/universal" tags="Angular guide todo" title="Angular Universal : rendu côté serveur">
 <pre></pre>
 </div>
 <div created="20210520122415903" creator="user" modified="20210522222410330" modifier="user" tags="Angular" title="angular.json">
@@ -18056,7 +18395,7 @@ Nouvel Article
 <div created="20210523135534978" creator="user" modified="20210523135534978" modifier="user" tags="[[Les types de casse dans Angular]]" title="camelCase">
 <pre>''camelCase'' : Symboles, propriétés, méthodes, noms de pipe, sélecteurs de directive non-composants, constantes.</pre>
 </div>
-<div created="20210522230749020" creator="user" modified="20210522231549419" modifier="user" tags="glossaire Angular" title="Chargement différencié">
+<div created="20210522230749020" creator="user" modified="20210526162236395" modifier="user" source="" tags="glossaire Angular" title="Chargement différencié">
 <pre>Une technique de compilation qui crée deux paquets pour une application :
 
 * un petit pour les navigateurs modernes,
@@ -18482,8 +18821,14 @@ Pour plus d'informations, voir [[Directives structurelles|Directives structurell
 <div color="#e8aa0c" created="20201112223829885" creator="user" icon="$:/core/images/close-others-button" modified="20210526155532893" modifier="user" tags="" title="doing">
 <pre>{{||LTg}}</pre>
 </div>
+<div created="20210526230617679" creator="user" modified="20210526230625492" modifier="user" tags="" title="Doing_Icon">
+<pre></pre>
+</div>
 <div color="#25ff06" created="20201112223833845" creator="user" icon="$:/core/images/done-button" modified="20210526155545471" modifier="user" tags="" title="done">
 <pre>{{||LTg}}</pre>
+</div>
+<div created="20210526230629737" creator="user" modified="20210526230634961" modifier="user" tags="" title="Done_Icon">
+<pre></pre>
 </div>
 <div created="20210522232509778" creator="user" modified="20210524161416648" modifier="user" source="https://angular.io/guide/glossary#ecmascript" tags="glossaire Angular" title="ECMAScript">
 <pre>La [[spécification officielle du langage JavaScript|https://fr.wikipedia.org/wiki/ECMAScript]].
@@ -18524,6 +18869,9 @@ Voir également [[chargement dynamique des composants|Chargement dynamique des c
 <pre>Lors de la définition d'une [[directive|Directive]], le décorateur @[[Input|api/core/Input]]() sur une propriété de directive rend cette propriété disponible comme //cible// d'une [[liaison de propriété|Liaison de propriétés dans Angular]]. Les valeurs de données entrent dans une propriété d'entrée à partir de la source de données identifiée dans l'[[expression de modèle|Expression de modèle]] à droite du signe égal.
 
 Pour plus d'informations, voir les [[propriétés d'entrée et de sortie|Partage des données entre les directives et les composants enfants et parents]].</pre>
+</div>
+<div created="20210526162814929" creator="user" modified="20210526162831755" modifier="user" tags="todo TW5" title="Entrées">
+<pre>[!is[system]sort[title]]</pre>
 </div>
 <div aliases="[[workspace]] [[environnement de travail angular]]" created="20210520130408993" creator="user" modified="20210522235531833" modifier="user" source="https://angular.io/guide/glossary#view-hierarchy" tags="glossaire Angular" title="Espace de travail angular">
 <pre>Ensemble de projets Angular (applications et bibliothèques) gérés par le [[CLI|Angular CLI]] qui sont typiquement regroupés dans un seul dépôt de contrôle des sources (comme [[git]]).
@@ -18898,7 +19246,7 @@ Pour en apprendre plus sur les diverses formes de liaison dans Angular, voir la 
 <div created="20210520141034190" creator="user" modified="20210522233115585" modifier="user" source="https://angular.io/guide/attribute-binding#style-binding" tags="Angular todo guide" title="Liaison de style dans angular">
 <pre></pre>
 </div>
-<div created="20210520142951320" creator="user" modified="20210526154153677" modifier="user" tags="glossaire Angular" title="Linting">
+<div created="20210520142951320" creator="user" modified="20210526162226495" modifier="user" source="" tags="glossaire Angular" title="Linting">
 <pre>Le linting est la vérification automatique d'un code source pour rechercher des erreurs de programmation et stylistiques. 
 
 Cette vérification s'effectue à l'aide d'un outil de linting (également connu sous le nom de linter). 
@@ -19233,13 +19581,16 @@ Pour en savoir plus, voir [[Introduction aux services et à l'injection de dépe
 
 Pour en savoir plus, voir [[Propriétés d'entrée et de sortie|Partage des données entre les directives et les composants enfants et parents]].</pre>
 </div>
+<div created="20210526234457783" creator="user" list="[[Afficher la source]] [[Template task-control]] [[Style source]]" modified="20210526234457783" modifier="user" title="source">
+<pre></pre>
+</div>
 <div created="20210408051311167" creator="user" modified="20210521162626326" modifier="user" tags="$:/tags/ViewTemplate doc TW5 exemple" title="source footnote-viewtemplate" type="text/vnd.tiddlywiki">
 <pre>&lt;$list filter=&quot;[all[current]tag[literature]!has[draft.of]]&quot;&gt;
 &lt;&lt;showfnotes title:Footnotes&gt;&gt;
 &lt;/$list&gt;</pre>
 </div>
-<div created="20201112224247232" creator="user" modified="20210526161044545" modifier="user" tags="TW5" title="stats">
-<pre>&lt;$count filter=&quot;[!is[system]sort[title]]&quot;/&gt; entrées, &lt;$count filter=&quot;[tag[tags]]&quot;/&gt; [[tags]].</pre>
+<div created="20201112224247232" creator="user" modified="20210526162852681" modifier="user" tags="TW5" title="stats">
+<pre>&lt;$count filter=&quot;[!is[system]sort[title]]&quot;/&gt; [[entrées|Entrées]], &lt;$count filter=&quot;[tag[tags]]&quot;/&gt; [[tags]].</pre>
 </div>
 <div created="20210510123603526" creator="user" modified="20210521155822635" modifier="user" tags="Angular" title="strict mode">
 <pre>Le mode strict impose une écriture de code plus précise (surtout pour les propriétés des classes).
@@ -19258,6 +19609,18 @@ strict:false
 <div created="20201112232530977" modified="20210126152458256" tags="tags" title="style">
 <pre>&lt;div class=&quot;nicelist&quot;&gt;
 &lt;$transclude tiddler=&quot;LTg#&quot;/&gt;
+</pre>
+</div>
+<div created="20210526211443668" creator="user" modified="20210526235403999" modifier="user" tags="$:/tags/Stylesheet TW5 Alias" title="Style Alias Uni Link" type="application/x-tiddler">
+<pre>&lt;pre&gt;
+.uni-link-aka-footer {
+
+color:&lt;&lt;color tiddler-link-foreground&gt;&gt;;
+
+opacity:0.5;
+
+}
+&lt;/pre&gt;
 </pre>
 </div>
 <div created="20210305131808216" creator="user" modified="20210305133511567" modifier="user" tags="$:/tags/Stylesheet Tiddlytask" title="Style Buttons" type="text/css">
@@ -19294,8 +19657,10 @@ position: absolute;
 content:&quot;+&quot;;
 }</pre>
 </div>
-<div created="20210302133451773" modified="20210302225957276" tags="$:/tags/Stylesheet TW5" title="Style CSS icon after target blank anchors">
-<pre>.tc-tiddler-body a.tc-tiddlylink-external:after, a[target=_blank]:after {
+<div created="20210302133451773" creator="user" modified="20210526223624946" modifier="user" tags="$:/tags/Stylesheet TW5" title="Style CSS icon after target blank anchors" type="application/x-tiddler">
+<pre>&lt;pre&gt;
+
+.tc-tiddler-body a.tc-tiddlylink-external:after, a[target=_blank]:after {
   content: url(&lt;&lt;datauri &quot;External_Link_Icon&quot;&gt;&gt;);
 	display: inline-block;
 	padding-left: 0.2em;
@@ -19312,10 +19677,12 @@ content:&quot;+&quot;;
 
 .tc-tiddler-body a.tc-tiddlylink, a.no-link-icon {
 	margin-right: 0;
-} */</pre>
+} */
+
+&lt;pre&gt;</pre>
 </div>
-<div created="20210126155534216" modified="20210129154220121" tags="$:/tags/Stylesheet TW5" title="Style Dark mode" type="text/css">
-<pre>a, .nicelist ul li span {
+<div created="20210126155534216" creator="user" modified="20210526162007553" modifier="user" tags="$:/tags/Stylesheet TW5" title="Style Dark mode" type="text/css">
+<pre>.uni-link, a, .nicelist ul li span {
     color: #ccccff;
 }
 
@@ -19610,13 +19977,67 @@ div.fullscreen-story-river.tc-keyboard
   height: 100%;
 }</pre>
 </div>
-<div created="20210525153312342" creator="user" modified="20210525153645890" modifier="user" tags="$:/tags/Stylesheet source TW5" title="Style source" type="text/css">
+<div created="20210525153312342" creator="user" modified="20210526235525348" modifier="user" tags="$:/tags/Stylesheet source TW5" title="Style source" type="text/css">
 <pre>.source {
-opacity:0.33;
+
 }
 
 .source:hover {
+
+}</pre>
+</div>
+<div created="20210526214447496" creator="user" modified="20210526235751193" modifier="user" tags="tag $:/tags/Stylesheet" title="Style tags" type="application/x-tiddler">
+<pre>&lt;pre&gt;
+
+div.tc-tags-wrapper span.tc-tag-list-item span.tc-tag-label:before {
+
+content: url(&lt;&lt;datauri &quot;Tag_Icon&quot;&gt;&gt;);
+float:left;
+font-size:1.5em;
+
+	display: inline-block;
+	padding-right: 1em;
+}
+
+
+/*
+div.tc-tags-wrapper span.tc-tag-list-item span.tc-tag-label:before {
+
+content: &quot;#&quot;;
+float:left;
+font-size:1.5em;
+}
+*/
+
+div.tc-tags-wrapper span.tc-tag-list-item {
+margin-right:3px;
+}
+
+div.tc-tags-wrapper span.tc-tag-list-item span.tc-tag-label{
+color:#ffc966!important;
+font-weight:bold;
+padding:5px;
+background:unset!important;
+
+/*
+transition: opacity 150ms ease-in-out;
+opacity:0.33;
+*/
+}
+
+div.tc-tags-wrapper span.tc-tag-list-item span.tc-tag-label:hover{
+
 opacity:1;
+}
+
+&lt;/pre&gt;</pre>
+</div>
+<div created="20210527000342294" creator="user" modified="20210527000535193" modifier="user" tags="$:/tags/Stylesheet task-control" title="Style task-control" type="text/css">
+<pre>.task-control {
+position: absolute;
+right: 0;
+bottom: 0;
+padding: 10px;
 }</pre>
 </div>
 <div created="20210127000920920" creator="Télumire" modified="20210522235908780" modifier="user" tags="TW5 $:/tags/Stylesheet" title="Style tiddler controls" type="text/css">
@@ -19686,7 +20107,16 @@ Positions the controls above the title of the tiddler to prevent premature line 
 <div created="20210523132638362" creator="user" modified="20210523132739318" modifier="user" tags="guide Angular todo" title="Syntaxe des modèles">
 <pre></pre>
 </div>
-<div color="#eecc66" created="20201112231556230" icon="$:/core/images/new-here-button" modified="20210126152430761" title="tags">
+<div created="20210526235722176" creator="user" list="$:/core/ui/ViewTemplate/tags [[Style tags]]" modified="20210526235722176" modifier="user" title="tag">
+<pre></pre>
+</div>
+<div created="20210526223756479" creator="user" modified="20210526225623141" modifier="user" tags="icon SVG" title="Tag_Icon" type="image/svg+xml">
+<pre>&lt;svg version=&quot;1.1&quot; viewBox=&quot;0 0 28.945 29.051&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; height=&quot;1em&quot; fill=&quot;#ffc966&quot;&gt;
+ &lt;path d=&quot;m3.8202 10.771 9.167e-4 0.94074c6.875e-4 0.87612 0.50188 2.0848 1.1195 2.7024l14.174 14.174c0.61807 0.61807 1.6198 0.61647 2.2388-0.0023l7.126-7.1265a1.582 1.582 0 0 0 0.0023-2.239l-14.174-14.173c-0.61807-0.61807-1.8279-1.1183-2.7033-1.1186l-6.205-0.0016a1.5817 1.5817 0 0 0-1.5836 1.5836l0.00183 2.2825 0.065772 0.00756c0.8548 0.094189 1.9454-0.010084 3.0629-0.26423a2.2234 2.2234 0 0 1 2.553-0.83922l0.06669-0.029792 0.02933 0.065314a2.2229 2.2229 0 0 1 0.75626 0.4973c0.86993 0.86993 0.87108 2.2791 0.0027 3.1474-0.82914 0.82914-2.151 0.86558-3.026 0.11046-1.2295 0.25713-2.4462 0.36576-3.5084 0.28348z&quot;/&gt;
+ &lt;path d=&quot;m10.574 8.9086 0.0053 0.011688c-2.2205 0.99826-4.9464 1.5581-6.9659 1.3356-2.7471-0.30296-4.1911-2.0582-3.3956-4.8889 0.71478-2.5442 2.7173-4.5185 4.951-5.1632 2.4475-0.70653 4.5259 0.45101 4.5259 3.0308h-1.9761c0-1.1135-0.70539-1.5063-2.0018-1.1321-1.5836 0.45719-3.069 1.9211-3.5966 3.799-0.43886 1.5625 0.095564 2.2122 1.7096 2.3902 1.6331 0.1799 4.0176-0.30984 5.9394-1.1736l0.0062 0.01375 0.0083-0.0039c0.40334-0.17371 1.436 1.5008 0.80759 1.7738a0.64168 0.64168 0 0 1-0.01719 0.00688z&quot;/&gt;
+&lt;/svg&gt;</pre>
+</div>
+<div color="#eecc66" created="20201112231556230" creator="user" icon="" modified="20210526235855361" modifier="user" title="tags">
 <pre>&lt;div class=&quot;nicelist&quot;&gt;
 &lt;$transclude tiddler=&quot;LTg#&quot;/&gt;</pre>
 </div>
@@ -19696,16 +20126,26 @@ Positions the controls above the title of the tiddler to prevent premature line 
 <div caption="task-control" created="20210303171128800" list="" modified="20210304002836703" tags="task-control $:/tags/TextEditor/Snippet" title="task-control snippet">
 <pre>&lt;&lt;task-control&gt;&gt;</pre>
 </div>
-<div created="20210525124533318" creator="user" list-before="$:/core/ui/ViewTemplate/title" modified="20210525130246376" modifier="user" tags="TW5 $:/tags/ViewTemplate source task-control" title="Template task-control">
+<div created="20210525124533318" creator="user" list-after="$:/core/ui/ViewTemplate/title" modified="20210527000319313" modifier="user" tags="TW5 $:/tags/ViewTemplate source task-control" title="Template task-control">
 <pre>&lt;$list filter=&quot;[all[current]tag[todo]][all[current]tag[doing]][all[current]tag[done]]&quot;&gt;
+
+&lt;span class=&quot;task-control&quot;&gt;
 &lt;&lt;task-control&gt;&gt;
+&lt;/span&gt;
+
 &lt;/$list&gt;</pre>
+</div>
+<div aliases="test" created="20210526232018072" creator="user" modified="20210526232056208" modifier="user" source="source url" tags="todo test" title="Test style tag aliases source">
+<pre>Contenu tiddler</pre>
 </div>
 <div created="20210313134122939" modified="20210313135819600" tags="TW5 todo" title="TgNT">
 <pre>&lt;a href=&quot;#:[all[current]tagging[]sort[title]]&quot; target=&quot;_blank&quot;&gt;Open all in a new tab&lt;/a&gt;</pre>
 </div>
-<div color="#ff0000" created="20201112223824226" creator="user" icon="$:/core/images/refresh-button" modified="20210526155510809" modifier="user" tags="" title="todo">
+<div color="#ff0000" created="20201112223824226" creator="user" icon="$:/core/images/refresh-button" modified="20210526231245608" modifier="user" tags="" title="todo">
 <pre>{{||LTg}}</pre>
+</div>
+<div created="20210526230554675" creator="user" modified="20210526231023428" modifier="user" tags="$:/tags/Image" title="Todo_Icon">
+<pre>&lt;svg width=&quot;22pt&quot; height=&quot;22pt&quot; class=&quot;tc-image-refresh-button tc-image-button&quot; viewBox=&quot;0 0 128 128&quot; fill=&quot;#ff0000&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M106.369 39.433c10.16 20.879 6.57 46.764-10.771 64.106-21.87 21.87-57.327 21.87-79.196 0-21.87-21.87-21.87-57.326 0-79.196a8 8 0 1111.314 11.314c-15.621 15.62-15.621 40.947 0 56.568 15.62 15.621 40.947 15.621 56.568 0C97.72 78.79 99.6 58.175 89.924 42.73l-6.44 12.264a8 8 0 11-14.166-7.437L84.435 18.76a8 8 0 0110.838-3.345l28.873 15.345a8 8 0 11-7.51 14.129l-10.267-5.457zm-8.222-12.368c-.167-.19-.336-.38-.506-.57l.96-.296-.454.866z&quot;/&gt;&lt;/svg&gt;</pre>
 </div>
 <div created="20210525152411191" creator="user" modified="20210525152431863" modifier="user" source="https://angular.io/guide/glossary#pipe" tags="guide Angular todo" title="Transformer des données à l'aide de pipes" type="">
 <pre></pre>
